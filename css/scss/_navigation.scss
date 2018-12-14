@@ -1,0 +1,33 @@
+.main-menu {
+		
+	border-top: solid 1px $grey-light;
+	border-bottom: solid 1px $grey-light;
+	
+	.menu {
+		a {
+			padding: 1rem 1rem 0.8rem 1rem;
+			text-transform: uppercase;
+			font-weight: $font-semi-bold;
+			letter-spacing: 0.05em;
+			border-bottom: solid 3px transparent;
+			transition-duration: .3s;
+			transition-property: color, border-bottom-color;
+			
+			&:hover {
+				border-bottom: solid 3px $secondary;
+			}
+		}
+	}
+}
+
+
+//Small
+@media screen and (max-width: 39.99875em) {
+	.main-menu {
+		display: none;
+	}
+	
+	.mobile-menu-button {
+		margin-top: 0.8em;
+	}
+}

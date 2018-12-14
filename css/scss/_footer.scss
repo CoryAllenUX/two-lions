@@ -1,0 +1,68 @@
+@import "variables";
+
+footer {
+	font-size: $font-small;
+	
+	.footer-main {
+		background: $grey-dark;
+		color: $grey-light;
+		padding-top: $padding-large;
+		padding-bottom: $padding-large;
+		
+		.footer-main-top {
+			padding-bottom: $padding-large;
+			margin-bottom: $padding-large;
+			border-bottom: 1px solid $grey-medium;
+			
+			h5 {
+				margin-top: $padding-medium;
+			}
+		}
+		
+		input, textarea {
+			background: none; 
+			font-size: 1em;
+		}
+		
+		button.button.secondary {
+			border-width: 2px;
+
+			&:hover {
+				border-color: $secondary;
+				color: $white;
+				background: $secondary;
+			}
+		}
+	}
+	
+	.footer-bottom {
+		padding-top: $padding-base;
+		padding-bottom: $padding-base;
+	}
+	a {
+		color: $secondary;
+		
+		&:hover {
+			color: $white;
+		}
+	}
+}
+
+//Small
+@media screen and (max-width: 39.99875em) {
+	.footer-main {
+		.footer-main-top {
+			margin-bottom: $padding-large;
+			
+			.logo {
+				margin-bottom: $padding-large;
+			}
+		}
+		
+		.footer-main-bottom {
+			form {
+				margin-bottom: $padding-xlarge;
+			}
+		}
+	}
+}

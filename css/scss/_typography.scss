@@ -1,0 +1,64 @@
+@import "variables";
+
+body, p, h1, h2, h3, h4, h5, h6 {
+	font-family: $font-primary;
+}
+
+h1, h2, h3, h4, h5, h6, .button {
+	text-transform: uppercase;
+}
+
+.logo {
+	display: inline;
+	img {
+		float: left;
+		max-height: 75px;
+		margin-right: 1em;
+	}
+	
+	h1 {
+		font-family: $font-heading;
+		color: $black;
+		font-weight: bold;
+		font-size: 1.5em;
+		line-height: 0.7;
+		padding-top: 0.7em;
+		margin: 0;
+		letter-spacing: 1px;
+		
+			.caps {
+				font-size: 1.2em;
+			}
+	}
+	h2 {
+		font-family: $font-secondary;
+		color: $primary;
+		font-weight: bold;
+		font-size: 0.99em;
+		margin: 0;
+	}
+	h3 {
+		color: $grey-medium;
+		font-size: 0.5em;
+		margin: 0;
+		font-weight: bold;
+	}
+}
+
+
+// Buttons
+
+.button {
+	margin: 0;
+}
+
+
+// Colors
+
+.color-primary {
+	color: $primary;
+}
+
+.color-secondary {
+	color: $secondary;
+}
