@@ -16,6 +16,14 @@ footer {
 			
 			h5 {
 				margin-top: $padding-medium;
+				
+				a {
+					color: white;
+					
+					i {
+						color: $secondary;
+					}
+				}
 			}
 		}
 		

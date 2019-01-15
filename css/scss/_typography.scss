@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6, .button {
 	text-transform: uppercase;
 }
 
+.center {
+	text-align: center;
+}
+
 .logo {
 	display: inline;
 	img {
@@ -50,6 +54,13 @@ h1, h2, h3, h4, h5, h6, .button {
 
 .button {
 	margin: 0;
+}
+
+// Fonts
+
+.small {
+	font-size: $font-small;
+	color: $grey-medium;
 }
 
 
