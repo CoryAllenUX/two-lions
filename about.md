@@ -1,6 +1,8 @@
 ---
 
 layout: page
-title: Projects Two Lions Contractors, Inc. building and remodeling for Milwaukee, Waukesha and Southeast Wisconsin
+title: About Two Lions Contractors Wisconsin
 
 ---
+
+This is about us
