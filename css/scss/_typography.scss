@@ -7,6 +7,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6, .button {
 	text-transform: uppercase;
 }
+h5 {
+	margin-bottom: 1rem;
+	font-weight: bold;
+}
+p {
+	margin-bottom: 1.5rem;
+}
 
 .center {
 	text-align: center;
